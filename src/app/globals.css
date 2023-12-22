@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --custom-white: #FCF9F2;
+  --custom-brown-40: #d1bda1;
+  --custom-brown-light: #C19B87;
+  --custom-brown-80: #C19B87;
+  --custom-brown: #6D493B;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+body {
+  background: var(--custom-white);
+}
+
+main {
+}
