@@ -950,6 +950,9 @@ video {
 .pt-40 {
   padding-top: 10rem;
 }
+.pt-1 {
+  padding-top: 0.25rem;
+}
 .text-center {
   text-align: center;
 }
