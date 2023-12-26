@@ -13,9 +13,9 @@ export default function Portrait({ src, tel, address, email, linkedin }) {
   return (
     <div className='w-full flex flex-col items-end gap-10'>
       <motion.div
-        initial={{ y: -500 }}
+        initial={{ y: -1000 }}
         animate={{ y: 0 }}
-        transition={{ duration: 0.75, ease: "easeInOut" }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
 
         className='w-full bg-[var(--custom-brown-light)] rounded-b-full h-fit pt-20'>
         <div className='relative group flex items-center justify-center rounded-full overflow-hidden aspect-square' >
@@ -31,7 +31,7 @@ export default function Portrait({ src, tel, address, email, linkedin }) {
       <motion.ul
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1 }}
+        transition={{ delay: 0.5 }}
         className="flex flex-col gap-3 w-full text-md">
         <li className="flex gap-2">
           <div className="aspect-square h-full w-min p-1 rounded-full bg-[var(--custom-brown)]">
