@@ -19,7 +19,7 @@ export default function Section({ title, children }) {
         <h2>{title}</h2>
       </div>
 
-      <div className="w-full px-6">
+      <div className="w-full px-10 md:px-0">
         {children}
       </div>
     </motion.section>

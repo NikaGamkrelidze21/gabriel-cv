@@ -8,7 +8,7 @@ export default function AboutMe({ status, description, name, lastname }) {
         initial={{ x: -500, opacity:0, scale:0.5 }}
         animate={{ x: 0, opacity:1, scale:1 }}
         transition={{delay:1}}
-        className='flex flex-col px-1 gap-5 md:gap-10 text-center text-[montserrat-alternates]'
+        className='flex flex-col px-1 gap-5 md:gap-10 md:mt-40 text-center text-[montserrat-alternates]'
       >
 
         <p className='text-5xl uppercase font-bold'>{name} <br /> {lastname}</p>

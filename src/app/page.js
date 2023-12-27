@@ -9,8 +9,8 @@ import Languages from './sections/languages'
 
 export default function Home() {
   return (
-    <main className="w-full grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-x-10 gap-y-20 justify-center text-[var(--custom-brown)] md:px-[20%]">
-      <header className='flex flex-col-reverse w-full gap-16'>
+    <main className="w-full grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-x-10 gap-y-20 justify-center text-[var(--custom-brown)] md:px-[10%] xl:px-[20%]">
+      <header className='flex flex-col-reverse md:flex-row md:col-span-2 w-full md:h-[100vh] gap-16'>
         <AboutMe
           name={'Gabriel'}
           lastname={'tsintsadze'}
