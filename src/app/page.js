@@ -16,7 +16,7 @@ export default function Home() {
           lastname={'tsintsadze'}
           status={'Developer'}
           description={
-            " I am a fourth-year student at the University of Business and Technology. Currently, I have no work experience, but I am motivated and want to use the accumulated knowledge in practice. I haven't chosen a direction yet and I'm trying to try everything."
+            " I am a fourth-year student at the University of Business and Technology. Currently, I have no work experience, but I am motivated and want to use the accumulated knowledge in practice. I haven't chosen a direction yet and I'm willing to try everything."
           }
         />
 

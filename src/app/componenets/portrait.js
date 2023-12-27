@@ -57,10 +57,6 @@ export default function Portrait({ src, tel, address, email, linkedin }) {
         <Wraapper title={email}>
           <MdOutlineEmail className="text-[var(--custom-white)]" />
         </Wraapper>
-
-        <Wraapper title={linkedin}>
-          <BiLogoLinkedinSquare className="text-[var(--custom-white)]" />
-        </Wraapper>
       </motion.ul>
     </div>
   )
