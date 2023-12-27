@@ -1,12 +1,13 @@
-export default function Talents({ data=[] }) {
+export default function Talents({ data = [] }) {
     return (
-        <div className="font-medium">
-            { 
-            data.map((item) => (
-                <p>{item}</p>
-            ))
-            }
-
+        <div className="w-full flex justify-center">
+            <div className="font-medium w-min">
+                {
+                    data.map((item) => (
+                        <p>{item}</p>
+                    ))
+                }
+            </div>
         </div>
     )
 }

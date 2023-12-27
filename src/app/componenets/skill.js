@@ -1,8 +1,9 @@
 
 export default function Skill({ name, level }) {
     return (
-        <div className="grid grid-cols-3 w-full gap-5 items-center group h-10 text-md">
-            <p className="">{name}</p>
+        <div className="grid grid-cols-3 w-full gap-5 items-center group text-md">
+            <p className=" text-wrap  ">{name}</p>
+
             <div className="relative flex items-center w-full col-span-2 bg-[var(--custom-brown-40)] rounded-full ">
                 <div style={{ width: `${level}%` }} className={` h-4 bg-[var(--custom-brown)] rounded-full group`}>
                 </div>
